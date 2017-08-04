@@ -1,0 +1,97 @@
+.japan{
+  &:before{
+    content:"";
+    display:block;
+    width:104px;
+    height:63px;
+    background:url(../images/nation_jp.png) no-repeat 0 0;
+    float:left;
+    margin:0;
+  }
+}
+
+.food {
+
+  &-section{
+    width:100%;
+  }
+
+
+  &-wrap {
+    height: 481px;
+
+    &:after {
+      content: "";
+      display: block;
+    }
+
+    &-image-wrap {
+      width: 714px;
+      height: 441px;
+      float: left;
+
+      &-image {
+
+      }
+    }
+  }
+
+
+
+
+}
+
+.jp-food-image{
+  background:url(../images/b-image.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.res-section{
+
+
+
+}
+
+.jp-res-image{
+  background:url(../images/b-image2.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.jp-cont-image{
+  background:url(../images/b-image3.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.jp-event-image{
+  background:url(../images/b-image4.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+.res-image-wrap-big.germany{
+  background:url(../images/res_big_gm.jpg) no-repeat;
+
+}
+
+.res-image2-wrap-small.germany{
+  &:nth-child(1){
+    background:url(../images/res_small1_gm.jpg) no-repeat 0 0;
+    border:5px solid #ffff00;
+    box-sizing:border-box;
+  }
+  &:nth-child(2){
+    background:url(../images/res_small2_gm.jpg) no-repeat 0 0;
+  }
+  &:nth-child(3){
+    background:url(../images/res_small3_gm.jpg) no-repeat 0 0;
+  }
+  &:nth-child(4){
+    background:url(../images/res_small4_gm.jpg) no-repeat 0 0;
+  }
+}
+
+.res-map-image.germany{
+  background:url(../images/res_map01.jpg) no-repeat 0 0;
+}
