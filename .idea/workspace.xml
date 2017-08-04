@@ -73,8 +73,8 @@
       <file leaf-file-name="restaurant_germany.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html_src/restaurant_germany.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.37126437">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -323,7 +323,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="BRA_res" />
+=======
+              <option name="myItemId" value="BRA_food2" />
+>>>>>>> b258b69a2aa1420ba62898e0d6524cc91430ec0e
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,7 +345,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="BRA_event" />
+=======
+              <option name="myItemId" value="BRA_food1" />
+>>>>>>> b258b69a2aa1420ba62898e0d6524cc91430ec0e
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -359,7 +367,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="BRA_contents" />
+=======
+              <option name="myItemId" value="BRA_event" />
+>>>>>>> b258b69a2aa1420ba62898e0d6524cc91430ec0e
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,8 +535,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
 =======
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+<<<<<<< HEAD
 >>>>>>> 1a029dcf08aad58755a6b7e1924464cf5f3b8648
     <editor active="false" />
+=======
+    <editor active="true" />
+>>>>>>> b258b69a2aa1420ba62898e0d6524cc91430ec0e
     <layout>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +555,9 @@
 >>>>>>> b93a4b76f1d434ad896ab090b2f71ca91b437ee4
 =======
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14014752" sideWeight="0.5102703" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14014752" sideWeight="0.48972973" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14014752" sideWeight="0.48972973" order="0" side_tool="false" content_ui="combo" />
 >>>>>>> 94c1603b38ba0fe9a4864a1ff5abe516875d56a6
 >>>>>>> 1a029dcf08aad58755a6b7e1924464cf5f3b8648
@@ -841,9 +860,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html_src/restaurant_germany.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state vertical-scroll-proportion="0.37126437">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+=======
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
 >>>>>>> 94c1603b38ba0fe9a4864a1ff5abe516875d56a6
+>>>>>>> 1a029dcf08aad58755a6b7e1924464cf5f3b8648
           <folding />
 >>>>>>> 1a029dcf08aad58755a6b7e1924464cf5f3b8648
         </state>

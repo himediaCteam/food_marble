@@ -4,21 +4,26 @@
   clear:both;
 }
 
+.big-image-part1{
+  width:100%;
+  height:830px;
+  text-indent:-99999em;
+}
+
 .big-image{
   width:100%;
-  height:690px;
+  height:750px;
   text-indent:-99999em;
 }
 
 .gray-texture{
   width:100%;
-  height:2226px;
   background:url(../images/gray-texture.jpg);
+  box-sizing:border-box;
 }
 
 .white-texture{
   width:100%;
-  height:2713px;
   background: coral url(../images/white-texture.jpg);
   box-sizing: border-box;
 }
@@ -128,7 +133,10 @@
 
 .pt253{
   padding-top:253px;
-  box-sizing:border-box;
+}
+
+.pb253{
+  padding-bottom:253px;
 }
 
 .mb189{
