@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b776eca6-7ac9-41a2-bdd3-b7ec9d29f07a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/_common_res.scss" afterPath="$PROJECT_DIR$/css_src/_common_res.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html_src/restaurant_germany.html" afterPath="$PROJECT_DIR$/html_src/restaurant_germany.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css_src/style.scss" afterPath="$PROJECT_DIR$/css_src/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="b776eca6-7ac9-41a2-bdd3-b7ec9d29f07a" name="Default" comment="" />
     <ignored path="food.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -383,7 +377,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14014752" sideWeight="0.5102703" order="2" side_tool="true" content_ui="tabs" />
