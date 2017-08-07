@@ -14,27 +14,24 @@
 
   &-section{
     width:100%;
+    height:100%;
+    position:relative;
+  }
+  &-wrap{
+    height:481px;
   }
   &-page{
     width:1200px;
-    height:1995px;
-    position:relative;
+    position:absolute;
 
-    &-wrap-1{
-      width:1200px;
-      position:absolute;
+    &.page1{
+
+    }
+    &.page2{
       display:none;
     }
-    &-wrap-2{
-      width:1200px;
-      position:absolute;
+    &.page3{
       display:none;
-    }
-
-    &-wrap-3{
-      width:1200px;
-      position:absolute;
-
     }
   }
 
@@ -130,17 +127,17 @@
     text-indent:-99999em;
     margin-bottom:38px;
 
-    &.icon-1{
+    &.jp-icon-1{
       background-position:0 -86px;
       margin-right:22px;
     }
 
-    &.icon-2{
+    &.jp-icon-2{
       background-position:-416px -86px;
       margin-right:22px;
     }
 
-    &.icon-3{
+    &.jp-icon-3{
       background-position:-520px -86px;
     }
 
@@ -162,11 +159,11 @@
 .recipe{
 
   &-wrap{
-
+    width:1200px;
   }
   &-name{
     font-size:52px;
-    margin:25px 0 65px;
+    margin:30px 0 40px;
     text-align: center;
   }
 
@@ -199,52 +196,7 @@
 .recipe-list-item-photo {
   width: 350px;
   height: 315px;
+  overflow: hidden;
+  display:block;
   float: left;
-  text-indent: -99999em;
-
-  &.recipe1-1 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-2 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-3 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-4 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-5 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-6 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-7 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-8 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
-  &.recipe1-9 {
-    width: 350px;
-    height: 315px;
-    overflow: hidden;
-  }
 }
