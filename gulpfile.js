@@ -65,45 +65,13 @@ gulp.task('sass', function(){
 // concat ���� - ���� ���� ������ �ϳ��� ���Ϸ� ��ġ�� ���
 
 
-gulp.task('tabmenu', function() {
-  return gulp.src('js_src/tab_menu/*.js')
+gulp.task('rolling', function() {
+  return gulp.src('js_src/*.js')
       .pipe(sourcemaps.init())
-      .pipe(concat('tab_menu.js'))
+      .pipe(concat('image_rolling.js'))
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('js/'));
 });
-
-gulp.task('gnbmenu', function() {
-  return gulp.src('js_src/gnb_menu/*.js')
-      .pipe(sourcemaps.init())
-      .pipe(concat('gnb_menu.js'))
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest('js/'));
-});
-
-gulp.task('timingfunction', function() {
-  return gulp.src('js_src/timing_function/*.js')
-      .pipe(sourcemaps.init())
-      .pipe(concat('timing_function.js'))
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest('js/'));
-});
-
-gulp.task('imagesliding', function() {
-  return gulp.src('js_src/image_sliding/*.js')
-      .pipe(sourcemaps.init())
-      .pipe(concat('image_sliding.js'))
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest('js/'));
-});
-
-gulp.task('accmenu', function() {
-  return gulp.src('js_src/acc_menu/*.js')
-      .pipe(sourcemaps.init())
-      .pipe(concat('acc_menu.js'))
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest('js/'));
-});
-gulp.task('jsconcat', ['tabmenu', 'gnbmenu','timingfunction', 'imagesliding', 'accmenu']);
+gulp.task('jsconcat', ['rolling']);
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
