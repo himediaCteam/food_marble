@@ -23,6 +23,9 @@
   &-page{
     width:1200px;
     position:absolute;
+    &-wrap{
+      height:1990px;
+    }
 
     &.page1{
 
@@ -126,21 +129,6 @@
     float: left;
     text-indent:-99999em;
     margin-bottom:38px;
-
-    &.jp-icon-1{
-      background-position:0 -86px;
-      margin-right:22px;
-    }
-
-    &.jp-icon-2{
-      background-position:-416px -86px;
-      margin-right:22px;
-    }
-
-    &.jp-icon-3{
-      background-position:-520px -86px;
-    }
-
   }
 
   &-name{
