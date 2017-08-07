@@ -1,0 +1,190 @@
+.japan{
+  &:before{
+    content:"";
+    display:block;
+    width:104px;
+    height:63px;
+    background:url(../images/nation_jp.png) no-repeat 0 0;
+    float:left;
+    margin:0;
+  }
+}
+
+.food {
+
+  &-section{
+    width:100%;
+    height:100%;
+    position:relative;
+  }
+  &-wrap{
+    height:481px;
+  }
+  &-page{
+    width:1200px;
+    position:absolute;
+    &-wrap{
+      height:1990px;
+    }
+
+    &.page1{
+
+    }
+    &.page2{
+      display:none;
+    }
+    &.page3{
+      display:none;
+    }
+  }
+
+
+
+  //&-page{
+  //  width:1200px;
+  //  height:1980px;
+  //}
+  //&-wrap {
+  //  height: 481px;
+  //
+  //  &:after {
+  //    content: "";
+  //    display: block;
+  //  }
+  //
+  //  &-image-wrap {
+  //    width: 714px;
+  //    height: 441px;
+  //    float: left;
+  //
+  //    &-image {
+  //
+  //    }
+  //  }
+  //}
+
+  &-image {
+    width:714px;
+    height:480px;
+    float:left;
+
+    &-list {
+      width: 714px;
+      height: 440px;
+      position: relative;
+      overflow: hidden;
+
+      &-item {
+        width: 714px;
+        height: 440px;
+        display:block;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+    }
+
+    &-circle{
+      width:117px;
+      height:21px;
+      margin:19px auto 0;
+
+
+      @extend %clearfix;
+
+      &-button{
+        width:21px;
+        height:21px;
+        border-radius: 50%;
+        background-color:#ddd;
+        float:left;
+        text-indent: -99999em;
+
+        margin-right:27px;
+
+        &:last-child{
+          margin-right:0;
+        }
+      }
+    }
+  }
+
+  &-right-wrap{
+    width:408px;
+    height:440px;
+    float:right;
+  }
+  &-icon-wrap{
+    width:353px;
+    height:103px;
+
+    @extend %clearfix;
+  }
+
+  &-icon {
+    width:103px;
+    height:103px;
+    background:url(../images/img_sprite.png) no-repeat 0 0;
+    float: left;
+    text-indent:-99999em;
+    margin-bottom:38px;
+  }
+
+  &-name{
+    font-size:39px;
+    float:left;
+    margin-bottom: 25px;
+  }
+
+  &-paragraph{
+    float:left;
+    line-height:1.5;
+  }
+
+}
+
+.recipe{
+
+  &-wrap{
+    width:1200px;
+  }
+  &-name{
+    font-size:52px;
+    margin:30px 0 40px;
+    text-align: center;
+  }
+
+  &-list{
+
+    @extend %clearfix;
+
+    &-item {
+      width:350px;
+      height:441px;
+      float:left;
+      margin-right: 75px;
+
+      &:nth-child(3),
+      &:nth-child(6),
+      &:nth-child(9){
+        margin-right:0;
+      }
+      &-paragraph{
+        width: 350px;
+        height: 105px;
+        margin: 20px 0;
+        float:left;
+      }
+    }
+  }
+}
+
+
+.recipe-list-item-photo {
+  width: 350px;
+  height: 315px;
+  overflow: hidden;
+  display:block;
+  float: left;
+}

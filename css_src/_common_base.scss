@@ -8,12 +8,14 @@
   width:100%;
   height:830px;
   text-indent:-99999em;
+  background-attachment: fixed;
 }
 
 .big-image{
   width:100%;
   height:750px;
   text-indent:-99999em;
+  background-attachment: fixed;
 }
 
 .gray-texture{
@@ -149,6 +151,10 @@
 
 .relative{
   position:relative;
+}
+
+.height{
+  height:1990px;
 }
 
 .footer{
