@@ -71,6 +71,6 @@ $(function(){
     calculateRatio.changeImage( $(this) );
     calculateRatio.applyBig();
   });
-  
+
 
 });
