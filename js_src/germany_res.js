@@ -71,10 +71,6 @@ $(function(){
     calculateRatio.changeImage( $(this) );
     calculateRatio.applyBig();
   });
-
-  //$('.res-image-wrap').on('mouseleave', function(){
-  //  calculateRatio.changeImage( $('.res-image-bottom-wrap').eq(0) );
-  //  calculateRatio.applyBig();
-  //});
+  
 
 });
