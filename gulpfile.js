@@ -64,8 +64,6 @@ gulp.task('sass', function(){
 
 // concat ���� - ���� ���� ������ �ϳ��� ���Ϸ� ��ġ�� ���
 
-
-<<<<<<< HEAD
 gulp.task('germanyRes', function() {
   return gulp.src('js_src/*.js')
       .pipe(sourcemaps.init())
@@ -75,7 +73,7 @@ gulp.task('germanyRes', function() {
 });
 
 gulp.task('jsconcat', ['germanyRes']);
-=======
+
 gulp.task('rolling', function() {
   return gulp.src('js_src/*.js')
       .pipe(sourcemaps.init())
@@ -84,6 +82,6 @@ gulp.task('rolling', function() {
       .pipe(gulp.dest('js/'));
 });
 gulp.task('jsconcat', ['rolling']);
->>>>>>> 8abfb85ca0239163870d0a8a0bb1c1fa85c05124
+
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
