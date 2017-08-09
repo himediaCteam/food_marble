@@ -4,45 +4,68 @@
 
 
 .food-icon.italy-icon1-1 {
-  background-position: 0 -86px;
+  background-position: 0 -398px;
   margin-right: 22px;
 }
 
 .food-icon.italy-icon1-2 {
-  background-position: -416px -86px;
+  background-position: -416px -398px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -398px;
+  }
 }
 
 .food-icon.italy-icon1-3 {
-  background-position: -520px -86px;
+  background-position: -520px -398px;
+  &:hover{
+    background-position:-208px -398px;
+  }
 }
 
+
+
+
 .food-icon.italy-icon2-1 {
-  background-position: 0 -86px;
+  background-position: -312px -398px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -398px;
+  }
 }
 
 .food-icon.italy-icon2-2 {
-  background-position: -416px -86px;
+  background-position: -104px -398px;
   margin-right: 22px;
 }
 
 .food-icon.italy-icon2-3 {
-  background-position: -520px -86px;
+  background-position: -520px -398px;
+  &:hover{
+    background-position:-208px -398px;
+  }
 }
+
+
 
 
 
 .food-icon.italy-icon3-1 {
-  background-position: 0 -86px;
+  background-position: -312px -398px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -86px;
+  }
 }
 
 .food-icon.italy-icon3-2 {
-  background-position: -416px -86px;
+  background-position: -416px -398px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -398px;
+  }
 }
 
 .food-icon.italy-icon3-3 {
-  background-position: -520px -86px;
+  background-position: -208px -398px;
 }
