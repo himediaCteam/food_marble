@@ -39,30 +39,6 @@
   }
 
 
-
-  //&-page{
-  //  width:1200px;
-  //  height:1980px;
-  //}
-  //&-wrap {
-  //  height: 481px;
-  //
-  //  &:after {
-  //    content: "";
-  //    display: block;
-  //  }
-  //
-  //  &-image-wrap {
-  //    width: 714px;
-  //    height: 441px;
-  //    float: left;
-  //
-  //    &-image {
-  //
-  //    }
-  //  }
-  //}
-
   &-image {
     width:714px;
     height:480px;
@@ -93,7 +69,7 @@
 
       @extend %clearfix;
 
-      &-button{
+      &-item{
         width:21px;
         height:21px;
         border-radius: 50%;
