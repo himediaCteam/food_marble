@@ -1,48 +1,71 @@
-.czech-food-image{
-  background-image:url(../images/czech_1.jpg);
+.czech-food-image {
+  background-image: url(../images/czech_1.jpg);
 }
 
+
 .food-icon.czech-icon1-1 {
-  background-position: 0 -86px;
+  background-position: 0 -502px;
   margin-right: 22px;
 }
 
 .food-icon.czech-icon1-2 {
-  background-position: -416px -86px;
+  background-position: -416px -502px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -502px;
+  }
 }
 
 .food-icon.czech-icon1-3 {
-  background-position: -520px -86px;
+  background-position: -520px -502px;
+  &:hover{
+    background-position:-208px -502px;
+  }
 }
 
+
+
+
 .food-icon.czech-icon2-1 {
-  background-position: 0 -86px;
+  background-position: -312px -502px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -502px;
+  }
 }
 
 .food-icon.czech-icon2-2 {
-  background-position: -416px -86px;
+  background-position: -104px -502px;
   margin-right: 22px;
 }
 
 .food-icon.czech-icon2-3 {
-  background-position: -520px -86px;
+  background-position: -520px -502px;
+  &:hover{
+    background-position:-208px -502px;
+  }
 }
+
+
+
 
 
 .food-icon.czech-icon3-1 {
-  background-position: 0 -86px;
+  background-position: -312px -502px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -502px;
+  }
 }
 
 .food-icon.czech-icon3-2 {
-  background-position: -416px -86px;
+  background-position: -416px -502px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -502px;
+  }
 }
 
 .food-icon.czech-icon3-3 {
-  background-position: -520px -86px;
+  background-position: -208px -502px;
 }
-
-

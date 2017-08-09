@@ -1,48 +1,71 @@
-.germany-food-image{
-  background-image:url(../images/germany_1.jpg);
+.germany-food-image {
+  background-image: url(../images/germany_1.jpg);
 }
 
 
 .food-icon.germany-icon1-1 {
-  background-position: 0 -86px;
+  background-position: 0 -606px;
   margin-right: 22px;
 }
 
 .food-icon.germany-icon1-2 {
-  background-position: -416px -86px;
+  background-position: -416px -606px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -606px;
+  }
 }
 
 .food-icon.germany-icon1-3 {
-  background-position: -520px -86px;
+  background-position: -520px -606px;
+  &:hover{
+    background-position:-208px -606px;
+  }
 }
 
+
+
+
 .food-icon.germany-icon2-1 {
-  background-position: 0 -86px;
+  background-position: -312px -606px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -606px;
+  }
 }
 
 .food-icon.germany-icon2-2 {
-  background-position: -416px -86px;
+  background-position: -104px -606px;
   margin-right: 22px;
 }
 
 .food-icon.germany-icon2-3 {
-  background-position: -520px -86px;
+  background-position: -520px -606px;
+  &:hover{
+    background-position:-208px -606px;
+  }
 }
+
+
 
 
 
 .food-icon.germany-icon3-1 {
-  background-position: 0 -86px;
+  background-position: -312px -606px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -606px;
+  }
 }
 
 .food-icon.germany-icon3-2 {
-  background-position: -416px -86px;
+  background-position: -416px -606px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -606px;
+  }
 }
 
 .food-icon.germany-icon3-3 {
-  background-position: -520px -86px;
+  background-position: -208px -606px;
 }
