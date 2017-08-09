@@ -2,49 +2,73 @@
   background-image:url(../images/bra_1.jpg);
 }
 
+
+
 .food-icon.bra-icon1-1 {
-  background-position: 0 -86px;
+  background-position: 0 -814px;
   margin-right: 22px;
 }
 
 .food-icon.bra-icon1-2 {
-  background-position: -416px -86px;
+  background-position: -416px -814px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -814px;
+  }
 }
 
 .food-icon.bra-icon1-3 {
-  background-position: -520px -86px;
+  background-position: -520px -814px;
+  &:hover{
+    background-position:-208px -814px;
+  }
 }
 
+
+
+
 .food-icon.bra-icon2-1 {
-  background-position: 0 -86px;
+  background-position: -312px -814px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -814px;
+  }
 }
 
 .food-icon.bra-icon2-2 {
-  background-position: -416px -86px;
+  background-position: -104px -814px;
   margin-right: 22px;
 }
 
 .food-icon.bra-icon2-3 {
-  background-position: -520px -86px;
+  background-position: -520px -814px;
+  &:hover{
+    background-position:-208px -814px;
+  }
 }
+
+
 
 
 
 .food-icon.bra-icon3-1 {
-  background-position: 0 -86px;
+  background-position: -312px -814px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -814px;
+  }
 }
 
 .food-icon.bra-icon3-2 {
-  background-position: -416px -86px;
+  background-position: -416px -814px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -814px;
+  }
 }
 
 .food-icon.bra-icon3-3 {
-  background-position: -520px -86px;
+  background-position: -208px -814px;
 }
-
 
 
