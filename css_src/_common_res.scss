@@ -1,100 +1,104 @@
-.res{
-  &-full{
+.res {
+  &-full {
     @extend %clearfix;
-    margin-top:229px;
+    margin-top: 229px;
   }
 
-  &-image{
-    &-wrap{
-      width:612px;
-      height:567px;
-      float:left;
-    }
-
-    &-top{
-      width:612px;
-      height:399px;
-      margin-bottom:0;
-    }
-
-    &-image-big.full-height{
-      height:100%;
-    }
-
-    &-image-big.full-width{
-      width:100%;
+  &-image {
+    &-wrap {
+      width: 612px;
+      height: 567px;
+      float: left;
     }
 
 
-    &-bottom{
-      width:612px;
-      &-wrap{
-        width:153px;
-        height:168px;
-        float:left;
-        overflow:hidden;
+      &-top {
+        width: 612px;
+        height: 399px;
+        margin-bottom: 0;
+      }
+
+      &-image-big.full-height {
+        height: 100%;
+      }
+
+      &-image-big.full-width {
+        width: 100%;
+      }
+
+
+      &-bottom {
+        width: 612px;
+        &-wrap {
+          width: 153px;
+          height: 168px;
+          float: left;
+          overflow: hidden;
+        }
+      }
+
+
+      .image-thumbnail.full-height {
+        height: 100%;
+      }
+
+      .image-thumbnail.full-width {
+        width: 100%;
       }
     }
 
-    .image-thumbnail.full-height{
-      height:100%;
+    &-explain-wrap {
+      width: 470px;
+      float: right;
     }
 
-    .image-thumbnail.full-width{
-      width:100%;
-    }
-  }
+    &-text {
 
-  &-explain-wrap{
-    width:470px;
-    float:right;
-  }
+      &-wrap {
+        height: 100px;
 
-  &-text{
+        &-title {
+          font-size: 39px;
+          padding-bottom: 27px;
+        }
 
-    &-wrap{
-      height:100px;
+        &-paragraph {
+          font-size: 13px;
+          line-height: 1.4;
+        }
 
-      &-title{
-        font-size:39px;
-        padding-bottom:27px;
-      }
-
-      &-paragraph{
-        font-size:13px;
-        line-height:1.4;
       }
 
     }
 
+    &-map-wrap {
+
+      @extend %clearfix;
+
+      margin-top: 202px;
+      float: left;
+    }
+
+    &-map-image {
+      width: 204px;
+      height: 189px;
+
+      text-indent: -99999em;
+      float: left;
+
+      margin-right: 40px;
+    }
+
+    &-address {
+      width: 196px;
+      float: left;
+    }
+
   }
 
-  &-map-wrap{
 
-    @extend %clearfix;
-
-    margin-top:202px;
-    float:left;
-  }
-
-  &-map-image{
-    width:204px;
-    height:189px;
-
-    text-indent: -99999em;
-    float:left;
-
-    margin-right:40px;
-  }
-
-  &-address{
-    width:196px;
-    float:left;
-  }
-
+.height100 {
+  height: 100%;
+  width: auto;
 }
 
-.height100{
-  height:100%;
-  width:auto;
-}

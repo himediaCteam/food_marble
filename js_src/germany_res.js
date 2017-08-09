@@ -7,15 +7,6 @@ $(function(){
     $imageBig : $('.res-image-big'),
     $imageThumb : $('.image-thumbnail'),
 
-    // 해당 부분의 값을 저장하는 객체 프로퍼티
-
-    //areaWidth : 0,
-    //areaHeight : 0,
-    //imageWidth : 0,
-    //imageHeight : 0,
-    //areaRatio : 0,
-    //imageRatio : 0,
-
     // 해당 부분의 값을 계산하는 메소드
     // 마스크 영역 계산
     areaValue : function(){
@@ -74,3 +65,4 @@ $(function(){
 
 
 });
+
