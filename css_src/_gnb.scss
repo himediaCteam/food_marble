@@ -142,12 +142,27 @@
   &-nation{
     float:left;
     display:block;
+<<<<<<< HEAD
 
     &-name{
       font-weight:bold;
       font-size:20px;
+=======
+<<<<<<< HEAD
+
+    &-name{
+      font-size:20px;
+      font-weight:bold;
+=======
+
+
+    &-name{
+>>>>>>> 6cf99c62520fbbf49bfd869d8733331a925af923
+>>>>>>> 65663bd61752e3a54f56c42e84a8860881c651d4
       margin:20px 0 0 10px;
       float:left;
+      font-weight:bold;
+      font-size:20px;
     }
   }
 }

@@ -64,6 +64,23 @@ gulp.task('sass', function(){
 
 // concat ���� - ���� ���� ������ �ϳ��� ���Ϸ� ��ġ�� ���
 
+gulp.task('germanyRes', function() {
+  return gulp.src('js_src/*.js')
+      .pipe(sourcemaps.init())
+      .pipe(concat('germany_res.js'))
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest('js/'));
+});
+
+gulp.task('foodPageRolling', function() {
+  return gulp.src('js_src/*.js')
+      .pipe(sourcemaps.init())
+      .pipe(concat('food_page_rolling.js'))
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest('js/'));
+});
+
+gulp.task('jsconcat', ['germanyRes']);
 
 gulp.task('rolling', function() {
   return gulp.src('js_src/*.js')
@@ -72,6 +89,9 @@ gulp.task('rolling', function() {
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('js/'));
 });
+
+gulp.task('jsconcat', ['rolling','foodPageRolling','germanyRes']);
+
 gulp.task('jsconcat', ['rolling']);
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);

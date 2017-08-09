@@ -33,7 +33,6 @@
 .inner-box{
   width:1200px;
   margin:0 auto;
-  //text-align: center;
 }
 
 .title-yellow{
@@ -66,7 +65,7 @@
   width:159px;
   height:148px;
   background: url(../images/spoon-icon.png)no-repeat;
-  top: -65px;
+  top: -40px;
   left: 41px;
 }
 
@@ -153,8 +152,13 @@
   position:relative;
 }
 
+.height{
+  height:1990px;
+}
+
 .footer{
   padding:35px 0;
   text-align: center;
   line-height:1.4;
 }
+
