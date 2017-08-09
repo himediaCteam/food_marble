@@ -3,46 +3,71 @@
 }
 
 
+
+
 .food-icon.thai-icon1-1 {
-  background-position: 0 -86px;
+  background-position: 0 -190px;
   margin-right: 22px;
 }
 
 .food-icon.thai-icon1-2 {
-  background-position: -416px -86px;
+  background-position: -416px -190px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -190px;
+  }
 }
 
 .food-icon.thai-icon1-3 {
-  background-position: -520px -86px;
+  background-position: -520px -190px;
+  &:hover{
+    background-position:-208px -190px;
+  }
 }
 
+
+
+
 .food-icon.thai-icon2-1 {
-  background-position: 0 -86px;
+  background-position: -312px -190px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -190px;
+  }
 }
 
 .food-icon.thai-icon2-2 {
-  background-position: -416px -86px;
+  background-position: -104px -190px;
   margin-right: 22px;
 }
 
 .food-icon.thai-icon2-3 {
-  background-position: -520px -86px;
+  background-position: -520px -190px;
+  &:hover{
+    background-position:-208px -190px;
+  }
 }
+
+
 
 
 
 .food-icon.thai-icon3-1 {
-  background-position: 0 -86px;
+  background-position: -312px -190px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -190px;
+  }
 }
 
 .food-icon.thai-icon3-2 {
-  background-position: -416px -86px;
+  background-position: -416px -190px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -190px;
+  }
 }
 
 .food-icon.thai-icon3-3 {
-  background-position: -520px -86px;
+  background-position: -208px -190px;
 }
