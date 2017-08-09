@@ -4,45 +4,68 @@
 
 
 .food-icon.usa-icon1-1 {
-  background-position: 0 -86px;
+  background-position: 0 -710px;
   margin-right: 22px;
 }
 
 .food-icon.usa-icon1-2 {
-  background-position: -416px -86px;
+  background-position: -416px -710px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -710px;
+  }
 }
 
 .food-icon.usa-icon1-3 {
-  background-position: -520px -86px;
+  background-position: -520px -710px;
+  &:hover{
+    background-position:-208px -710px;
+  }
 }
 
+
+
+
 .food-icon.usa-icon2-1 {
-  background-position: 0 -86px;
+  background-position: -312px -710px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -710px;
+  }
 }
 
 .food-icon.usa-icon2-2 {
-  background-position: -416px -86px;
+  background-position: -104px -710px;
   margin-right: 22px;
 }
 
 .food-icon.usa-icon2-3 {
-  background-position: -520px -86px;
+  background-position: -520px -710px;
+  &:hover{
+    background-position:-208px -710px;
+  }
 }
+
+
 
 
 
 .food-icon.usa-icon3-1 {
-  background-position: 0 -86px;
+  background-position: -312px -710px;
   margin-right: 22px;
+  &:hover{
+    background-position: 0 -710px;
+  }
 }
 
 .food-icon.usa-icon3-2 {
-  background-position: -416px -86px;
+  background-position: -416px -710px;
   margin-right: 22px;
+  &:hover{
+    background-position:-104px -710px;
+  }
 }
 
 .food-icon.usa-icon3-3 {
-  background-position: -520px -86px;
+  background-position: -208px -710px;
 }
