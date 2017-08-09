@@ -133,19 +133,20 @@
         font-size:18px;
         float:left;
         text-align: center;
-        margin-top:24px;
+        margin-top:20px;
 
       }
     }
 
   }
   &-nation{
-    font-size:20px;
     float:left;
-    font-weight:bold;
+    display:block;
 
     &-name{
-      margin:24px 0 0 10px;
+      font-weight:bold;
+      font-size:20px;
+      margin:20px 0 0 10px;
       float:left;
     }
   }
