@@ -6,6 +6,24 @@
 
 @import "common_base";
 
+@import "common_food";
+
+@import "india_food";
+
+@import "japan_food";
+
+@import "brazil_food";
+
+@import "czech_food";
+
+@import "germany_food";
+
+@import "italy_food";
+
+@import "thai_food";
+
+@import "usa_food";
+
 @import "germany_res";
 
 @import "brazil_res";
@@ -22,5 +40,41 @@
 
 @import "usa_res";
 
-@import "common_res.scss";
+@import "common_res";
+
+@import "common_contents";
+
+@import "contents_japan";
+
+@import "contents_india";
+
+@import "contents_bra";
+
+@import "contents_czech";
+
+@import "contents_germany";
+
+@import "contents_italy";
+
+@import "contents_thai";
+
+@import "contents_usa";
+
+@import "common_event";
+
+@import "brazil_event";
+
+@import "czech_event";
+
+@import "germany_event";
+
+@import "india_event";
+
+@import "italy_event";
+
+@import "japan_event";
+
+@import "thai_event";
+
+@import "usa_event";
 
