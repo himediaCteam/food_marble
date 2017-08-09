@@ -1,0 +1,30 @@
+.inner-box{
+  @extend %clearfix;
+}
+
+.contents-list-wrap{
+
+  float:left;
+  width:510px;
+
+  &:last-child{
+    float:right;
+  }
+
+  &-head{
+    font-size:20px;
+    font-weight:500;
+  }
+
+  &-name,
+  &-day,
+  &-actor{
+    font-size:15px;
+    font-weight:500;
+  }
+
+  &-icon{
+    text-indent:-99999em;
+  }
+
+}
