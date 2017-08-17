@@ -6,6 +6,7 @@
 
 .big-image-part1{
   width:100%;
+  min-width:1200px;
   height:830px;
   text-indent:-99999em;
   background-attachment: fixed;
@@ -13,6 +14,7 @@
 
 .big-image{
   width:100%;
+  min-width:1200px;
   height:750px;
   text-indent:-99999em;
   background-attachment: fixed;
@@ -20,20 +22,21 @@
 
 .gray-texture{
   width:100%;
+  min-width:1200px;
   background:url(../images/gray-texture.jpg);
   box-sizing:border-box;
 }
 
 .white-texture{
   width:100%;
-  background: coral url(../images/white-texture.jpg);
+  min-width:1200px;
+  background: url(../images/white-texture.jpg);
   box-sizing: border-box;
 }
 
 .inner-box{
   width:1200px;
   margin:0 auto;
-  //text-align: center;
 }
 
 .title-yellow{
