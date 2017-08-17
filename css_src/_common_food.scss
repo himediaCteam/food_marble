@@ -79,6 +79,7 @@
         text-indent: -99999em;
 
         margin-right:27px;
+        cursor: pointer;
 
         &:last-child{
           margin-right:0;
@@ -106,6 +107,7 @@
     float: left;
     text-indent:-99999em;
     margin-bottom:38px;
+    cursor: pointer;
   }
 
   &-name{
