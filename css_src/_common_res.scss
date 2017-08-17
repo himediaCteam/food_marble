@@ -44,6 +44,24 @@
           overflow: hidden;
           position:relative;
         }
+
+        &-wrap:hover{
+          border:6px solid yellow;
+          box-sizing:border-box;
+        }
+
+        &-wrap2 {
+          width: 153px;
+          height: 168px;
+          float: left;
+          overflow: hidden;
+          position:relative;
+        }
+
+        &-wrap2:hover{
+          border:6px solid yellow;
+          box-sizing:border-box;
+        }
       }
 
 
