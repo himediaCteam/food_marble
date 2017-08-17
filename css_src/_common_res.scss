@@ -11,6 +11,13 @@
       float: left;
     }
 
+    &-thumbnail{
+      width:100%;
+      position:absolute;
+      transform:translateX(-50%);
+      left:50%;
+    }
+
 
       &-top {
         width: 612px;
@@ -34,6 +41,7 @@
           height: 168px;
           float: left;
           overflow: hidden;
+          position:relative;
         }
       }
 
@@ -87,7 +95,18 @@
       float: left;
 
       margin-right: 40px;
+
+      cursor:pointer;
     }
+
+    &-map-link{
+      width:204px;
+      height:189px;
+      display:block;
+    }
+
+
+
 
     &-address {
       width: 196px;
