@@ -64,24 +64,15 @@ gulp.task('sass', function(){
 
 // concat ���� - ���� ���� ������ �ϳ��� ���Ϸ� ��ġ�� ���
 
-gulp.task('germanyRes', function() {
+gulp.task('function', function() {
   return gulp.src('js_src/*.js')
       .pipe(sourcemaps.init())
-      .pipe(concat('germany_res.js'))
+      .pipe(concat('function.js'))
       .pipe(sourcemaps.write())
       .pipe(gulp.dest('js/'));
 });
 
-gulp.task('jsconcat', ['germanyRes']);
-
-gulp.task('rolling', function() {
-  return gulp.src('js_src/*.js')
-      .pipe(sourcemaps.init())
-      .pipe(concat('image_rolling.js'))
-      .pipe(sourcemaps.write())
-      .pipe(gulp.dest('js/'));
-});
-gulp.task('jsconcat', ['rolling']);
+gulp.task('jsconcat', ['function']);
 
 
 gulp.task('default', ['livereload', 'include', 'sass', 'jsconcat', 'watch']);
