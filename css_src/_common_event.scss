@@ -1,6 +1,7 @@
 .event{
   &-wrap{
     @extend %clearfix;
+    position:relative;
   }
 
   &-icon{
@@ -39,6 +40,32 @@
         display:block;
         width:1200px;
         height:609px;
+      }
+    }
+  }
+
+  &-arrow{
+    &-wrap{
+
+      width:1200px;
+      text-indent:-99999em;
+      position:absolute;
+      top:458px;
+
+      &-left{
+        width:21px;
+        height:36px;
+        background:url(../images/left_arrow.png) no-repeat 0 0;
+        float:left;
+        cursor:pointer;
+      }
+
+      &-right{
+        width:21px;
+        height:40px;
+        background:url(../images/right_arrow.png) no-repeat 0 0;
+        float:right;
+        cursor:pointer;
       }
     }
   }
