@@ -106,6 +106,12 @@
         float:left;
         text-align: center;
         margin-top:20px;
+        cursor:pointer;
+
+        &-link{
+          width:121px;
+          margin:0 auto;
+        }
 
       }
     }
