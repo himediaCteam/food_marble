@@ -1,26 +1,26 @@
 $(function(){
 
   var calculateRatio = {
-    // jQuery DOM ´ë»óÀ» ÀúÀåÇÏ´Â ÇÁ·ÎÆÛÆ¼
+    // jQuery DOM ëŒ€ìƒì„ ì €ì¥í•˜ëŠ” í”„ë¡œí¼í‹°
 
     $imageTop : $('.res-image-top'),
     $imageBig : $('.res-image-big'),
     $imageThumb : $('.image-thumbnail'),
 
-    // ÇØ´ç ºÎºĞÀÇ °ªÀ» °è»êÇÏ´Â ¸Ş¼Òµå
-    // ¸¶½ºÅ© ¿µ¿ª °è»ê
+    // í•´ë‹¹ ë¶€ë¶„ì˜ ê°’ì„ ê³„ì‚°í•˜ëŠ” ë©”ì†Œë“œ
+    // ë§ˆìŠ¤í¬ ì˜ì—­ ê³„ì‚°
     areaValue : function(){
       this.areaWidth = parseInt(this.$imageTop.css('width'));
       this.areaHeight = parseInt(this.$imageTop.css('height'));
       this.areaRatio = this.areaWidth / this.areaHeight;
     },
-    // ÀÌ¹ÌÁö °è»ê
+    // ì´ë¯¸ì§€ ê³„ì‚°
     imageValue : function( $image ){
       this.imageWidth = parseInt( $image.css('width') );
       this.imageHeight = parseInt( $image.css('height') );
       this.imageRatio = this.imageWidth / this.imageHeight;
     },
-    // Å« ÀÌ¹ÌÁö¿¡ Àû¿ë
+    // í° ì´ë¯¸ì§€ì— ì ìš©
     applyBig : function(){
       this.areaValue();
       this.imageValue(this.$imageBig);
@@ -30,7 +30,7 @@ $(function(){
         this.$imageBig.removeClass('full-width').addClass('full-height');
       }
     },
-    // ÀÛÀº ÀÌ¹ÌÁö¿¡ Àû¿ë
+    // ì‘ì€ ì´ë¯¸ì§€ì— ì ìš©
     applyThumb : function(){
 
       this.areaValue();
@@ -46,23 +46,37 @@ $(function(){
         }
       }
     },
-    // ¸¶¿ì½º ¿À¹ö½Ã ÀÌ¹ÌÁö º¯°æ ÇÔ¼ö
+    // ë§ˆìš°ìŠ¤ ì˜¤ë²„ì‹œ ì´ë¯¸ì§€ ë³€ê²½ í•¨ìˆ˜
     changeImage : function( $overImage ){
       var src = $overImage.children().attr('src');
       $('.res-image-big').attr('src', src);
+    },
+
+    changeImage2 : function( $overImage ){
+      var src2 = $overImage.children().attr('src');
+      $('.res-image-big2').attr('src', src2);
 
     }
+
+
   };
-  // ÇÔ¼ö ½ÇÇà
+  // í•¨ìˆ˜ ì‹¤í–‰
   calculateRatio.applyBig();
   calculateRatio.applyThumb();
 
-  // ÀÌº¥Æ® ½ÇÇà
+  // ì´ë²¤íŠ¸ ì‹¤í–‰
   $('.res-image-bottom-wrap').on('click', function(){
     calculateRatio.changeImage( $(this) );
+    //calculateRatio.changeImage2( $(this) );
     calculateRatio.applyBig();
   });
 
+  $('.res-image-bottom-wrap2').on('click', function(){
+    //calculateRatio.changeImage( $(this) );
+    calculateRatio.changeImage2( $(this) );
+    calculateRatio.applyBig();
+
+  });
 
 });
 
