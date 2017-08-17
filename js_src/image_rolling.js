@@ -4,7 +4,7 @@
 
 $(function(){
 
-  // ¼±¾ğºÎ
+  // ì„ ì–¸ë¶€
 
   var currentIndex = 0;
   var nextIndex = 0;
@@ -24,7 +24,7 @@ $(function(){
       nextIndex = 0;
     }
 
-    // eq()¿¡ À½¼ö °ªÀ» ³Ö¾î ÁÖ¸é µŞ ¼ø¼­ºÎÅÍ Â÷·Ê´ë·Î ¸ÅÄª½ÃÅ´
+    // eq()ì— ìŒìˆ˜ ê°’ì„ ë„£ì–´ ì£¼ë©´ ë’· ìˆœì„œë¶€í„° ì°¨ë¡€ëŒ€ë¡œ ë§¤ì¹­ì‹œí‚´
     $('.event-list-item').eq(currentIndex-1).removeClass('left100 ani').addClass('right100');
     $('.event-list-item').eq(currentIndex).removeClass('center ani').addClass('left100 ani');
     $('.event-list-item').eq(nextIndex).removeClass('right100').addClass('center ani');
@@ -52,7 +52,7 @@ $(function(){
     nextIndex--;
   }
 
-  // ½ÇÇàºÎ
+  // ì‹¤í–‰ë¶€
   init();
 
   $('.event-arrow-wrap-right').on('click', function(){
