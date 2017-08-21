@@ -42,7 +42,7 @@
 }
 
 .title-yellow{
-  font-size: 91px;
+  font-size: 75px;
   text-align: center;
   letter-spacing:3px;
   margin-bottom:54px;
@@ -89,7 +89,7 @@
 }
 
 .title-red {
-  font-size: 91px;
+  font-size: 75px;
   margin-bottom:54px;
   text-align: center;
   letter-spacing:3px;
@@ -106,17 +106,17 @@
 }
 
 .food-title{
-  content:"";
-  display:block;
-  position:absolute;
-  font-size: 91px;
-  letter-spacing:3px;
-  top:0;
-  left:0;
+  content: "";
+  display: block;
+  position: absolute;
+  font-size: 75px;
+  letter-spacing: 3px;
+  top: 0;
+  left: 21px;
 }
 
 .title-cont {
-  font-size: 91px;
+  font-size: 75px;
 
   &:after {
     content: "";
@@ -130,7 +130,7 @@
 }
 
 .intro{
-  font-size:26px;
+  font-size:20px;
   text-align: center;
 }
 
