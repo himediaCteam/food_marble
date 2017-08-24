@@ -46,20 +46,43 @@ $(function(){
     nextIndex--;
   }
 
-  // 실행부
   init();
 
-  $('.event-arrow-wrap-right').on('click', function(){
+  var activeClick = function(direction){
 
-    nextIndex = currentIndex + 1;
-    moveLeft();
+    var dir = direction;
+
+    if( dir == 'right' ){
+      nextIndex = currentIndex + 1;
+      moveLeft();
+    } else {
+      nextIndex = currentIndex - 1;
+      moveRight();
+    }
+
+    var $selector = $('.event-arrow-wrap2.' + dir);
+
+    setTimeout(function(){
+      // 재귀함수
+      $selector.one('click', function(){
+        activeClick(dir);
+      });
+
+    }, 1000);
+
+  };
+
+  // 실행부
+
+  $('.event-arrow-wrap2.right').one('click', function(){
+
+    activeClick('right');
 
   });
 
-  $('.event-arrow-wrap-left').on('click', function(){
+  $('.event-arrow-wrap2.left').one('click', function(){
 
-    nextIndex = currentIndex - 1;
-    moveRight();
+    activeClick('left');
 
   });
 
