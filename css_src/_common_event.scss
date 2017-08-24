@@ -50,13 +50,14 @@
       width:1200px;
       text-indent:-99999em;
       position:absolute;
-      top:458px;
+      top:164px;
+      @extend %clearfix;
 
       &-left{
         width:21px;
         height:36px;
         background:url(../images/left_arrow.png) no-repeat 0 0;
-        float:left;
+        margin-left:4px;
         cursor:pointer;
       }
 
@@ -64,8 +65,26 @@
         width:21px;
         height:40px;
         background:url(../images/right_arrow.png) no-repeat 0 0;
-        float:right;
+        margin-left:4px;
         cursor:pointer;
+      }
+    }
+
+    &-wrap2{
+      width:31px;
+      height:609px;
+      background:#000000;
+      opacity:0.7;
+      box-sizing: border-box;
+      padding-top: 280px;
+      cursor:pointer;
+
+      &:nth-child(1){
+        float:left;
+      }
+
+      &:nth-child(2){
+        float:right;
       }
     }
   }
