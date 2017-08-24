@@ -3,7 +3,8 @@ $(function(){
   // 선언부
 
   var currentIndex = 0;
-  var nextIndex = 1;
+  var nextIndex = 0;
+  var prevIndex = 0;
 
 
   function init(){
@@ -27,19 +28,58 @@ $(function(){
     currentIndex = nextIndex;
     nextIndex++;
   }
+  function moveRight(){
+
+    if (nextIndex <= -1){
+      nextIndex=$('.food-image-list-item.fs1').length-1;
+    }
+    if( prevIndex >= $('.food-image-list-item.fs1').length ){
+      prevIndex = 0;
+    }
+
+
+    $('.food-image-list-item.fs1').eq(prevIndex).removeClass('right ani').addClass('left');
+    $('.food-image-list-item.fs1').eq(currentIndex).removeClass('center ani').addClass('right ani');
+    $('.food-image-list-item.fs1').eq(nextIndex).removeClass('left').addClass('center ani');
+
+    currentIndex = nextIndex;
+    prevIndex = currentIndex+1;
+    nextIndex--;
+
+  }
+
+  // 푸드 페이지 아이콘 슬라이딩
+  $(function(){
+
+    $('.food-icon').on('click', function(e){
+
+      e.preventDefault();
+
+      var pageIndex = $(this).index('food-icon');
+
+      $('.food-icon>a').removeClass('on');
+      $('.food-icon').eq(pageIndex).children('a').addClass('on');
+
+      $('.food-page').remove
+    })
+
+  });
+
+
 
   // 실행부
   init();
 
-  $('.food-image-list.fs1').on('click', function(){
+  $('.food-image-list-arrow-right').on('click', function(){
     nextIndex = currentIndex + 1;
     moveLeft();
   });
-  //
-  //$('.food-image-circle').on('click', function(){
-  //
-  //  nextIndex = currentIndex - 1;
-  //  moveRight();
-  //});
+
+  $('.food-image-list-arrow-left').on('click', function(){
+
+    nextIndex = currentIndex - 1;
+    prevIndex = currentIndex + 1;
+    moveRight();
+  });
 
 });
