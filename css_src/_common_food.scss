@@ -29,13 +29,22 @@
     }
 
     &.page1{
-
+      display:none;
+      &.on{
+        display:block;
+      }
     }
     &.page2{
       display:none;
+      &.on{
+        display:block;
+      }
     }
     &.page3{
       display:none;
+      &.on{
+        display:block;
+      }
     }
   }
 
@@ -53,7 +62,7 @@
 
       &-arrow{
 
-        &-left{
+        &.left{
           width:21px;
           height:36px;
           background:url("../images/left_arrow.png") no-repeat 0 0;
@@ -62,7 +71,7 @@
           left:10px;
           z-index:2;
         }
-        &-right{
+        &.right{
           width:21px;
           height:36px;
           background:url("../images/right_arrow.png") no-repeat 0 0;
@@ -147,6 +156,10 @@
     text-indent:-99999em;
     margin-bottom:38px;
     cursor: pointer;
+    &>a{
+      display:block;
+      padding:25px;
+    }
   }
 
   &-name{
