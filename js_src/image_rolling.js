@@ -27,6 +27,8 @@ $(function(){
     $('.event-list-item').eq(currentIndex-1).removeClass('left100 ani').addClass('right100');
     $('.event-list-item').eq(currentIndex).removeClass('center ani').addClass('left100 ani');
     $('.event-list-item').eq(nextIndex).removeClass('right100').addClass('center ani');
+    $('.event-radius-item').eq(currentIndex).removeClass('on');
+    $('.event-radius-item').eq(nextIndex).addClass('on');
 
     currentIndex = nextIndex;
     nextIndex++;
@@ -41,6 +43,8 @@ $(function(){
     $('.event-list-item').eq(nextIndex-1).removeClass('right100 ani').addClass('left100');
     $('.event-list-item').eq(currentIndex).removeClass('center ani').addClass('right100 ani');
     $('.event-list-item').eq(nextIndex).removeClass('left100').addClass('center ani');
+    $('.event-radius-item').eq(currentIndex).removeClass('on');
+    $('.event-radius-item').eq(nextIndex).addClass('on');
 
     currentIndex = nextIndex;
     nextIndex--;
@@ -77,7 +81,6 @@ $(function(){
   $('.event-arrow-wrap2.right').one('click', function(){
 
     activeClick('right');
-    $(this)
 
   });
 
