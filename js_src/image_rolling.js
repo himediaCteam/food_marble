@@ -77,6 +77,7 @@ $(function(){
   $('.event-arrow-wrap2.right').one('click', function(){
 
     activeClick('right');
+    $(this)
 
   });
 
@@ -85,5 +86,6 @@ $(function(){
     activeClick('left');
 
   });
+
 
 });
