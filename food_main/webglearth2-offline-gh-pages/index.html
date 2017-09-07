@@ -19,16 +19,35 @@
           tms: true
         }).addTo(earth);
 
-        var marker = WE.marker([48.858561, 2.294481]).addTo(earth);
-        marker.bindPopup('<a href="http://www.naver.com"><img src="img/ttt.jpg" width="150" /></a>', {maxWidth: 150, closeButton: true}).openPopup();
+        var marker1 = WE.marker([36.204824,138.252924]).addTo(earth);
+        marker1.bindPopup('<a href="../../html/japan.html"><img src="img/japan.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
 
-//        var marker2 = WE.marker([30.058056, 31.228889]).addTo(earth);
-//        marker2.bindPopup("<b>Cairo</b><br>Yay, you found me!", {maxWidth: 120, closeButton: false});
+        var marker2 = WE.marker([15.870032,100.99254100000007]).addTo(earth);
+        marker2.bindPopup('<a href="../../html/thailand.html"><img src="img/thai.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
+        var marker3 = WE.marker([20.593684,78.96288000000004]).addTo(earth);
+        marker3.bindPopup('<a href="../../html/india.html"><img src="img/india.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
+        var marker4 = WE.marker([ 41.87194,12.567379999999957]).addTo(earth);
+        marker4.bindPopup('<a href="../../html/italy.html"><img src="img/italy.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
+        var marker5 = WE.marker([49.81749199999999,15.472962000000052]).addTo(earth);
+        marker5.bindPopup('<a href="../../html/czech.html"><img src="img/czech.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
+        var marker6 = WE.marker([51.165691,10.451526000000058]).addTo(earth);
+        marker6.bindPopup('<a href="../../html/germany.html"><img src="img/germany.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
+        var marker7 = WE.marker([37.09024,-95.71289100000001]).addTo(earth);
+        marker7.bindPopup('<a href="../../html/us.html"><img src="img/us.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
+        var marker8 = WE.marker([-14.235004,-51.92527999999999]).addTo(earth);
+        marker8.bindPopup('<a href="../../html/brazil.html"><img src="img/brazil.jpg" width="300" /></a>', {maxWidth: 300, closeButton: true});
+
 //
 //        var markerCustom = WE.marker([50, -9], 'img/ttt.jpg', 100, 24).addTo(earth);
 
 //        earth.setView([51.505, 0], 6);
-        earth.setView([48.858561, 2.294481], 2);
+        earth.setView([7.972198,-79.804687], 4);
 
         var before = null;
         requestAnimationFrame(function animate(now) {
